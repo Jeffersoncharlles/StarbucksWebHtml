@@ -23,7 +23,88 @@ header .line {
     height: 100px;
 }
 
-.header--left {
+.header--left img {
     width: 64px;
     height: 64px;
+}
+
+.header--right{
+    display: flex;
+    align-items: center;
+}
+
+.header--search form{
+    display: flex;
+}
+.header--search input{
+    font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid #9999;
+    outline: 0;/*remove contorno focus*/
+    width: 100%;
+    max-width: 250px;
+}
+
+.header--search button {
+    border:  0;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header--search button img{
+    width: 16px;
+    height: 16px;
+}
+
+.header--menu{
+    margin-left: 60px;
+    cursor: pointer;
+}
+.header--menu img {
+    width: 24px;
+    height: 24px;
+}
+
+.banner{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.banner h1{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Oswald",  sans-serif;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.banner-images{
+    margin-top: 60px;
+}
+
+.banner-images img{
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    border: 5px solid #117050;
+    margin-right: 40px;
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box1--content{
+
+}
+
+.box1--img1{
+    background-color: #117050;
+}
+.box1--img2{
+    background-color: red;
 }
